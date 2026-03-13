@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://campus-intel-backend.onrender.com/api/$1"
+    },
+    {
+      "source": "/ml/(.*)",
+      "destination": "https://campus-intel-ai.onrender.com/ml/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
